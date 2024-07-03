@@ -245,11 +245,11 @@ nav {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 200px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 40px);
 }
 
 .features__header--wrapper {
@@ -260,22 +260,31 @@ nav {
   max-width: 100%;
 }
 
-.features__title {
+.title {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
-.features__header {
+.header {
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+}
+
+.description {
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 24px;
+  text-align: start;
 }
 
 .features__description {
-font-size: 16px;
-max-width: 50%;
-color: grey;
+  max-width: 50%;
+  margin-bottom: 24px;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
 }
 
 .features__feature--wrapper {
@@ -290,10 +299,10 @@ color: grey;
 }
 
 .feature__icon {
- border: 1px solid lightgrey;
- border-radius: 40px;
- font-size: 40px;
- padding: 16px;
+  border: 1px solid lightgrey;
+  border-radius: 40px;
+  font-size: 40px;
+  padding: 16px;
 }
 
 .features__feature--title {
@@ -310,3 +319,88 @@ color: grey;
 
 /* Quality Work */
 
+#quality {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px; 
+}
+
+.quality__wrapper {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.learnmore {
+  background-color: #6415ff;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 30px;
+  border: 1px solid #6415ff;
+  font-weight: bold;
+}
+
+.sect__img--wrapper {
+  max-width: 50%;
+  margin: 20px;
+}
+
+.sect__img {
+  width: 100%;
+}
+
+/* Steps Section */
+
+#steps {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px; 
+}
+
+.steps__wrapper {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.number {
+  font-size:40px;
+  font-weight:bold;
+  color: lightgrey;
+  float: left;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.step__header {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.step__description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.steps__desc {
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
