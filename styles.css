@@ -82,18 +82,17 @@ nav {
   margin-left: 16px;
   text-decoration: none;
   font-size: 16px;
-  color:black;
+  color: black;
   padding: 8px;
   transition: all 300ms ease;
   cursor: pointer;
-
 }
 
 .nav__link--main {
   border: 2px solid #6415ff;
   border-radius: 32px;
   padding: 12px 24px;
-  background-color:#6415ff;
+  background-color: #6415ff;
   color: white;
 }
 
@@ -111,7 +110,7 @@ nav {
 }
 
 .nav__link--supplemental:hover {
-  color:#542aa7;
+  color: #542aa7;
   font-weight: bold;
 }
 
@@ -220,7 +219,7 @@ nav {
 
 .landing__trustedline {
   color: grey;
-font-weight: bold;
+  font-weight: bold;
 }
 
 .landing__customers--wrapper {
@@ -241,4 +240,73 @@ font-weight: bold;
 }
 
 /* FEATURES */
+
+#features {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 40px);
+}
+
+.features__header--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.features__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features__header {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.features__description {
+font-size: 16px;
+max-width: 50%;
+color: grey;
+}
+
+.features__feature--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__feature {
+  max-width: calc(100% / 3);
+  margin: auto 0;
+  padding: 20px;
+}
+
+.feature__icon {
+ border: 1px solid lightgrey;
+ border-radius: 40px;
+ font-size: 40px;
+ padding: 16px;
+}
+
+.features__feature--title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.features__feature--description {
+  color: grey;
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+/* Quality Work */
 
