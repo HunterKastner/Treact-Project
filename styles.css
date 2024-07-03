@@ -303,18 +303,27 @@ nav {
   border-radius: 40px;
   font-size: 40px;
   padding: 16px;
+  float: left;
 }
 
 .features__feature--title {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 16px;
+  margin: auto 0;
 }
 
 .features__feature--description {
   color: grey;
   max-width: 80%;
-  margin-top: 20px;
+  margin: auto 0;
+}
+
+.features__feat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
 }
 
 /* Quality Work */
@@ -403,4 +412,43 @@ nav {
 display: flex;
 flex-direction: column;
 margin: 10px;
+}
+
+/* VALUES SECTION */
+
+#values {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px; 
+}
+
+.values__wrapper {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.value__wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.value {
+ max-width: 50%;
+ padding: 10px;
+ margin: auto 0; 
+}
+
+.green__value {
+  float: left;
+
 }
