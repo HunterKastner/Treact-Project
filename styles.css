@@ -22,7 +22,7 @@ ul {
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   padding: 20px;
 }
 
@@ -56,7 +56,7 @@ p {
 nav {
   height: 80px;
   display: flex;
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -67,7 +67,7 @@ nav {
 
 .nav__container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,18 +142,18 @@ nav {
 /* LANDING */
 
 .landing {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   padding: 0 12px;
+  height: calc(100vh - 80px);
 }
 
 .landing__description {
-  width: 100%;
+  width: 40%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -161,7 +161,7 @@ nav {
 }
 
 .landing__header {
-  font-size: 50px;
+  font-size: 44px;
   max-width: 80%;
   margin-top: 100px;
   margin-bottom: 20px;
@@ -174,45 +174,71 @@ nav {
 
 .landing__email--wrapper {
   width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
-.landing__email {
-  border: 1px solid #747171;
+.landing__email--form {
+  border: 1px solid #aaa6a6;
   border-radius: 100px;
-  padding: 15px 50% 15px 15px;
-  width: 100%;
-  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding: 5px;
+  transition: all 300ms ease;
+}
+
+.landing__email--form:hover {
+  border: 1px solid #474545;
+}
+
+.landing__email--form:focus {
+  border: 1px solid #542aa7;
+}
+
+.landing__email--input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex-grow: 2;
+  padding-left: 20px;
 }
 
 .landing__email--btn {
-  border: 1px solid #542aa7;
-  border-radius: 100px;
-  background-color: #542aa7;
+  border: 1px solid #6415ff;
+  border-radius: 40px;
+  background-color: #6415ff;
   color: white;
-  padding: 10px 20px;
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 79%;
-  margin-bottom: 5px;
-  margin-right:5px;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 300ms ease;
+}
+
+.landing__email--btn:hover {
+  cursor: pointer;
+  background-color: #542aa7;
+}
+
+.landing__trustedline {
+  color: grey;
+font-weight: bold;
 }
 
 .landing__customers--wrapper {
-  margin-top: 40px;
+  margin-left: -10px;
+  margin-top: 0px;
 }
 
 .landing__customers--img {
-  width: 100%;
+  width: 80%;
 }
 
 .landing__img--wrapper {
-  width: 1200px;
+  width: 60%;
 }
 
 .landing__img {
   width: 100%;
 }
+
+/* FEATURES */
+
