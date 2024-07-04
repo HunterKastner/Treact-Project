@@ -56,6 +56,10 @@ p {
   margin: 0px 40px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* NAV */
 
 nav {
@@ -485,4 +489,157 @@ nav {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
+}
+
+/* Plans section */
+
+#pricing {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.plan {
+  width: calc(100% / 3.3);
+}
+
+.plan__type {
+display: flex;
+margin: 0 auto;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+padding: 10px 0px;
+border: 1px solid lightgrey;
+}
+
+.plan__name {
+  font-size: 22px;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.monthly {
+  font-size: 16px;
+  color: grey;
+}
+
+.white {
+  color: white;
+}
+
+.plan__desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.plan__target {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plan__list {
+  font-size: 16px;
+  color: grey;
+  margin: 10px 0px;
+}
+
+.plan__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  border: 1px solid lightgrey;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.buynow {
+  border-radius: 30px;
+  padding: 20px 80px;
+  font-weight: bold;
+  outline: none;
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+.plan__top {
+  padding: 5px;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.top1 {
+  background-color: #46bcb5
+}
+
+.btn1 {
+  background-color: #46bcb5;
+  border: none;
+  color: white;
+}
+
+.top2 {
+  background-color: #5764d1
+}
+
+.btn2 {
+  background-color: #5764d1;
+  border: none;
+}
+
+.type2,
+.desc2,
+.btn2 {
+  background-color: #5764d1;
+  border-color: #667eea;
+}
+
+.type2 {
+  border-top: 0px;
+}
+
+.bn2 {
+  border: none;
+  color: #542aa7;
+}
+
+.list2 {
+  color: white;
+}
+
+.top3 {
+  background-color: #f77575;
+}
+
+.btn3 {
+  background-color: #f77575;
+  border: none;
+  color: white;
 }
