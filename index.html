@@ -61,6 +61,51 @@
               >
             </li>
           </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#features" class="menu__link" onclick="closeMenu()"
+                  >Features</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#quality" class="menu__link" onclick="closeMenu()"
+                  >Quality</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#steps" class="menu__link" onclick="closeMenu()"
+                  >Steps</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#values" class="menu__link" onclick="closeMenu()"
+                  >Values</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#pricing" class="menu__link" onclick="closeMenu()"
+                  >Pricing</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="" class="menu__link" onclick="closeMenu()">Login</a>
+              </li>
+              <li class="menu__list">
+                <button class="learnmore">
+                  <a href="" class="menu__link signup" onclick="closeMenu()"
+                    >Sign Up</a
+                  >
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -195,219 +240,216 @@
       <figure class="sect__img--wrapper">
         <img src="./assets/treact__website.png" class="sect__img" alt="" />
       </figure>
-      </section>
-
-      <section id="steps">
-        <figure class="sect__img--wrapper">
-          <img src="./assets/treact__website__2.png" alt="" class="sect__img" />
-        </figure>
-        <div class="steps__wrapper middle">
-          <h4 class="title purple">STEPS</h4>
-          <h1 class="header">
-            Easy to <span class="purple">Get Started.</span>
-          </h1>
-          <div class="step__wrapper">
-            <div class="step">
-              <div class="number">01</div>
-              <div class="steps__desc">
-                <div class="step__header">Register</div>
-                <div class="step__description">
-                  Create an account with us using Google or Facebook.
-                </div>
-              </div>
-            </div>
-            <div class="step">
-              <div class="number">02</div>
-              <div class="steps__desc">
-                <div class="step__header">Download</div>
-                <div class="step__description">
-                  Browse and Download the template that you like from the
-                  marketplace.
-                </div>
-              </div>
-            </div>
-            <div class="step">
-              <div class="number">03</div>
-              <div class="steps__desc">
-                <div class="step__header">Run</div>
-                <div class="step__description">
-                  Follow the instructions to setup and customize the template to
-                  your needs.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="values">
-        <div class="values__wrapper middle">
-          <h4 class="title purple">VALUES</h4>
-          <h1 class="header">
-            We Always Abide by Our <span class="purple">Principles.</span>
-          </h1>
-          <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum illo
-            quis optio? Voluptatem dolorum aliquid blanditiis veritatis.
-            Reiciendis dolor explicabo at esse expedita delectus magnam libero
-            cupiditate, earum iste totam sed saepe accusamus facilis deserunt.
-          </p>
-          <div class="value__wrapper">
-            <div class="value">
-              <div class="value__header">
-                <i class="fa-solid fa-dollar-sign green__value"></i>
-                <p class="value__title">Affordable</p>
-              </div>
-              <p class="value__desc">
-                We promise to offer you the best rate we can - at par with the
-                industry standard.
-              </p>
-            </div>
-            <div class="value">
-              <div class="value__header">
-                <i class="fa-solid fa-suitcase red__value"></i>
-                <p class="value__title">Proffesionalism</p>
-              </div>
-              <p class="value__desc">
-                We assure you that our templates are designed and created by
-                proffesional designers.
-              </p>
-            </div>
-          </div>
-          <button class="learnmore">Learn More</button>
-        </div>
-        <figure class="sect__img--wrapper">
-          <img src="./assets/principles__img.png" alt="" class="sect__img" />
-        </figure>
-      </section>
-
-      <section id="pricing">
-        <div class="pricing__wrapper">
-          <div class="title purple">PRICING</div>
-          <div class="header">
-            Reasonable & Flexible <span class="purple">Plans.</span>
-          </div>
-          <div class="features__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
-            unde nobis hic quas sunt officiis voluptatem perspiciatis quo eaque
-            officia.
-          </div>
-          <div class="plans__wrapper">
-            <div class="plan plan1">
-              <div class="plan__top top1"></div>
-              <div class="plan__type">
-                <p class="plan__name">PERSONAL</p>
-                <p class="price">$17.99</p>
-                <p class="monthly">MONTHLY</p>
-              </div>
-              <div class="plan__desc">
-                <p class="plan__target">For Individuals</p>
-                <p class="plan__list">30 Templates</p>
-                <p class="plan__list">7 Landing Pages</p>
-                <p class="plan__list">12 Internal Pages</p>
-                <p class="plan__list">Basic Assistance</p>
-              </div>
-              <div class="plan__btn">
-                <button class="buynow btn1">BUY NOW</button>
-              </div>
-            </div>
-            <div class="plan plan2">
-              <div class="plan__top top2"></div>
-              <div class="plan__type type2">
-                <p class="plan__name white">BUSINESS</p>
-                <p class="price white">$37.99</p>
-                <p class="monthly white">MONTHLY</p>
-              </div>
-              <div class="plan__desc desc2">
-                <p class="plan__target white">For Small Businesses</p>
-                <p class="plan__list list2">60 Templates</p>
-                <p class="plan__list list2">15 Landing Pages</p>
-                <p class="plan__list list2">22 Internal Pages</p>
-                <p class="plan__list list2">Priority Assistance</p>
-              </div>
-              <div class="plan__btn btn2">
-                <button class="buynow bn2">BUY NOW</button>
-              </div>
-            </div>
-            <div class="plan plan3">
-              <div class="plan__top top3"></div>
-              <div class="plan__type">
-                <p class="plan__name">ENTERPRISE</p>
-                <p class="price">$57.99</p>
-                <p class="monthly">MONTHLY</p>
-              </div>
-              <div class="plan__desc">
-                <p class="plan__target">For Large Companies</p>
-                <p class="plan__list">90 Templates</p>
-                <p class="plan__list">27 Landing Pages</p>
-                <p class="plan__list">37 Internal Pages</p>
-                <p class="plan__list">Personal Assistance</p>
-              </div>
-              <div class="plan__btn">
-                <button class="buynow btn3">BUY NOW</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer id="footer">
-        <div class="footer__wrapper">
-          <div class="footer__sections">
-            <div class="footer__sect">
-              <p class="footer__sect--title">MAIN</p>
-              <p class="footer__list">Blog</p>
-              <p class="footer__list">FAQs</p>
-              <p class="footer__list">Support</p>
-              <p class="footer__list">About Us</p>
-            </div>
-            <div class="footer__sect">
-              <p class="footer__sect--title">PRODUCT</p>
-              <p class="footer__list">Log In</p>
-              <p class="footer__list">Personal</p>
-              <p class="footer__list">Business</p>
-              <p class="footer__list">Team</p>
-            </div>
-            <div class="footer__sect">
-              <p class="footer__sect--title">PRESS</p>
-              <p class="footer__list">Logos</p>
-              <p class="footer__list">Events</p>
-              <p class="footer__list">Stories</p>
-              <p class="footer__list">Office</p>
-            </div>
-            <div class="footer__sect">
-              <p class="footer__sect--title">TEAM</p>
-              <p class="footer__list">Career</p>
-              <p class="footer__list">Founders</p>
-              <p class="footer__list">Culture</p>
-              <p class="footer__list">Onboarding</p>
-            </div>
-            <div class="footer__sect">
-              <p class="footer__sect--title">LEGAL</p>
-              <p class="footer__list">GDPR</p>
-              <p class="footer__list">Privacy Policy</p>
-              <p class="footer__list">Terms of Service</p>
-              <p class="footer__list">Disclaimer</p>
-            </div>
-          </div>
-          <hr />
-          <div class="footer__bottom">
-            <figure class="logo__wrapper">
-              <img
-                src="./assets/treact__logo--purple.png"
-                alt=""
-                class="logo__img"
-              />
-            </figure>
-            <div class="copyright">© 2018 Treact Inc. All Rights Reserved.</div>
-            <div class="footer__links">
-              <i class="fa-brands fa-facebook-f footer__link facebook"></i>
-              <i class="fa-brands fa-twitter footer__link"></i>
-              <i class="fa-brands fa-youtube footer__link"></i>
-            </div>
-          </div>
-        </div>
-      </footer>
     </section>
+
+    <section id="steps">
+      <figure class="sect__img--wrapper">
+        <img src="./assets/treact__website__2.png" alt="" class="sect__img" />
+      </figure>
+      <div class="steps__wrapper middle">
+        <h4 class="title purple">STEPS</h4>
+        <h1 class="header">Easy to <span class="purple">Get Started.</span></h1>
+        <div class="step__wrapper">
+          <div class="step">
+            <div class="number">01</div>
+            <div class="steps__desc">
+              <div class="step__header">Register</div>
+              <div class="step__description">
+                Create an account with us using Google or Facebook.
+              </div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="number">02</div>
+            <div class="steps__desc">
+              <div class="step__header">Download</div>
+              <div class="step__description">
+                Browse and Download the template that you like from the
+                marketplace.
+              </div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="number">03</div>
+            <div class="steps__desc">
+              <div class="step__header">Run</div>
+              <div class="step__description">
+                Follow the instructions to setup and customize the template to
+                your needs.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="values">
+      <div class="values__wrapper middle">
+        <h4 class="title purple">VALUES</h4>
+        <h1 class="header">
+          We Always Abide by Our <span class="purple">Principles.</span>
+        </h1>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum illo
+          quis optio? Voluptatem dolorum aliquid blanditiis veritatis.
+          Reiciendis dolor explicabo at esse expedita delectus magnam libero
+          cupiditate, earum iste totam sed saepe accusamus facilis deserunt.
+        </p>
+        <div class="value__wrapper">
+          <div class="value">
+            <div class="value__header">
+              <i class="fa-solid fa-dollar-sign green__value"></i>
+              <p class="value__title">Affordable</p>
+            </div>
+            <p class="value__desc">
+              We promise to offer you the best rate we can - at par with the
+              industry standard.
+            </p>
+          </div>
+          <div class="value">
+            <div class="value__header">
+              <i class="fa-solid fa-suitcase red__value"></i>
+              <p class="value__title">Proffesionalism</p>
+            </div>
+            <p class="value__desc">
+              We assure you that our templates are designed and created by
+              proffesional designers.
+            </p>
+          </div>
+        </div>
+        <button class="learnmore">Learn More</button>
+      </div>
+      <figure class="sect__img--wrapper">
+        <img src="./assets/principles__img.png" alt="" class="sect__img" />
+      </figure>
+    </section>
+
+    <section id="pricing">
+      <div class="pricing__wrapper">
+        <div class="title purple">PRICING</div>
+        <div class="header">
+          Reasonable & Flexible <span class="purple">Plans.</span>
+        </div>
+        <div class="features__description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta unde
+          nobis hic quas sunt officiis voluptatem perspiciatis quo eaque
+          officia.
+        </div>
+        <div class="plans__wrapper">
+          <div class="plan plan1">
+            <div class="plan__top top1"></div>
+            <div class="plan__type">
+              <p class="plan__name">PERSONAL</p>
+              <p class="price">$17.99</p>
+              <p class="monthly">MONTHLY</p>
+            </div>
+            <div class="plan__desc">
+              <p class="plan__target">For Individuals</p>
+              <p class="plan__list">30 Templates</p>
+              <p class="plan__list">7 Landing Pages</p>
+              <p class="plan__list">12 Internal Pages</p>
+              <p class="plan__list">Basic Assistance</p>
+            </div>
+            <div class="plan__btn">
+              <button class="buynow btn1">BUY NOW</button>
+            </div>
+          </div>
+          <div class="plan plan2">
+            <div class="plan__top top2"></div>
+            <div class="plan__type type2">
+              <p class="plan__name white">BUSINESS</p>
+              <p class="price white">$37.99</p>
+              <p class="monthly white">MONTHLY</p>
+            </div>
+            <div class="plan__desc desc2">
+              <p class="plan__target white">For Small Businesses</p>
+              <p class="plan__list list2">60 Templates</p>
+              <p class="plan__list list2">15 Landing Pages</p>
+              <p class="plan__list list2">22 Internal Pages</p>
+              <p class="plan__list list2">Priority Assistance</p>
+            </div>
+            <div class="plan__btn btn2">
+              <button class="buynow bn2">BUY NOW</button>
+            </div>
+          </div>
+          <div class="plan plan3">
+            <div class="plan__top top3"></div>
+            <div class="plan__type">
+              <p class="plan__name">ENTERPRISE</p>
+              <p class="price">$57.99</p>
+              <p class="monthly">MONTHLY</p>
+            </div>
+            <div class="plan__desc">
+              <p class="plan__target">For Large Companies</p>
+              <p class="plan__list">90 Templates</p>
+              <p class="plan__list">27 Landing Pages</p>
+              <p class="plan__list">37 Internal Pages</p>
+              <p class="plan__list">Personal Assistance</p>
+            </div>
+            <div class="plan__btn">
+              <button class="buynow btn3">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer__wrapper">
+        <div class="footer__sections">
+          <div class="footer__sect">
+            <p class="footer__sect--title">MAIN</p>
+            <p class="footer__list">Blog</p>
+            <p class="footer__list">FAQs</p>
+            <p class="footer__list">Support</p>
+            <p class="footer__list">About Us</p>
+          </div>
+          <div class="footer__sect">
+            <p class="footer__sect--title">PRODUCT</p>
+            <p class="footer__list">Log In</p>
+            <p class="footer__list">Personal</p>
+            <p class="footer__list">Business</p>
+            <p class="footer__list">Team</p>
+          </div>
+          <div class="footer__sect">
+            <p class="footer__sect--title">PRESS</p>
+            <p class="footer__list">Logos</p>
+            <p class="footer__list">Events</p>
+            <p class="footer__list">Stories</p>
+            <p class="footer__list">Office</p>
+          </div>
+          <div class="footer__sect">
+            <p class="footer__sect--title">TEAM</p>
+            <p class="footer__list">Career</p>
+            <p class="footer__list">Founders</p>
+            <p class="footer__list">Culture</p>
+            <p class="footer__list">Onboarding</p>
+          </div>
+          <div class="footer__sect">
+            <p class="footer__sect--title">LEGAL</p>
+            <p class="footer__list">GDPR</p>
+            <p class="footer__list">Privacy Policy</p>
+            <p class="footer__list">Terms of Service</p>
+            <p class="footer__list">Disclaimer</p>
+          </div>
+        </div>
+        <hr />
+        <div class="footer__bottom">
+          <figure class="logo__wrapper">
+            <img
+              src="./assets/treact__logo--purple.png"
+              alt=""
+              class="logo__img"
+            />
+          </figure>
+          <div class="copyright">© 2018 Treact Inc. All Rights Reserved.</div>
+          <div class="footer__links">
+            <i class="fa-brands fa-facebook-f footer__link facebook"></i>
+            <i class="fa-brands fa-twitter footer__link"></i>
+            <i class="fa-brands fa-youtube footer__link"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
